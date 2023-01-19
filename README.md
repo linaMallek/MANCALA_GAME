@@ -1,11 +1,14 @@
 # MANCALA_GAME
+
+Dans ce projet on a implemanter et realiser le jeu de mancala 
+
 ## EXECUTION : 
 
 - Telecheger .
 - Derigez vers MancalaGraphics.py de chaque file est executez .
 
 
-Dans ce projet on a implemanter et realiser le jeu de mancala 
+
 
 ## Fisrt part 
 
