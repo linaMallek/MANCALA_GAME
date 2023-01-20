@@ -129,7 +129,7 @@ class Play:
             print(pit)
             self.humanTurn(game)
             time.sleep(1)
-            value, _ = self.NegaMaxAlphaBetaPruning(child_game, -player, depth - 1, -beta, -alpha)
+            value, _ = self.NegaMaxAlphaBetaPruning(child_game, -Player, depth - 1, -beta, -alpha)
             value = - value
             self.humanTurn(game)
             time.sleep(1)
@@ -163,7 +163,7 @@ class Play:
         else:
             best_value = math.inf
             best_move = None
-            for move in game.state.possibleMoves(player):
+            for move in game.state.possibleMoves(Player):
                 new_game = deepcopy(game)
                 Player=new_game.state.doMove2(Player, move)
                 value, _ = self.minmaxAlphaBetaPruning(depth - 1,Player,new_game, alpha, beta)
