@@ -18,4 +18,4 @@ Human vs Computer : un joueur normal contre le computer implementer avec l'algor
 ## Second part
 
 Computer vs Computer : un computer contre un computer les deux implementer avec l'algorithme de min max alphabeta pruning  mais avec des heuristiques differentes 
-<img url="https://github.com/linaMallek/MANCALA_GAME/blob/master/images/MenuMancala.png">
+<img src="https://github.com/linaMallek/MANCALA_GAME/raw/master/images/MenuMancala.png" alt="Menu du jeu Mancala">
